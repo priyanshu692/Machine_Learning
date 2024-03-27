@@ -8,7 +8,7 @@ mpPose = mp.solutions.pose
 pose = mpPose.Pose()
 
 mpDraw = mp.solutions.drawing_utils
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("video1")
 pTime = 0
 while True:
     success, img = cap.read()
